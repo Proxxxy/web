@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="style.css" rel="stylesheet">
+	<script src="script.js">
+	</script>
+	<title></title>
+</head>
+<body>
+	<form action="#" id="form" onsubmit="formCheck()" name="form">
+		<label for="name">Имя</label>
+		<input name="name" type="text" minlength="3" required><br>
+		<label for="sex">Пол</label>
+		<input name="sex" value="male" type="radio" required>М
+		<input name="sex" value="female" type="radio" required>Ж<br>
+		<label for="number">Номер</label>
+		<input name="number" type="text" minlength="12" maxlength="12" required><br>
+		<label for="date">Дата рождения</label>
+		<input name="date" type="date" required><br>
+		<label for="name">Фото</label>
+		<input type="file" required><br>
+		<label for="name">Пароль</label>
+		<input name="pass" type="password" minlength="8" required><br>
+		<input type="submit">
+		<input type="reset">
+	</form>
+	<div id="errorBlock"></div>
+</body>
+</html>

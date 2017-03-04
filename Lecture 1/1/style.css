@@ -1,0 +1,17 @@
+div {
+	background-color: gray;
+	border: 1px solid black;
+	margin: 2px;
+}
+
+.container {
+	background-color: lightgray;
+	display: inline-block;
+}
+
+.img {
+	float: left;
+	width: 100px;
+	padding: 5px;
+	text-align: center;
+}
